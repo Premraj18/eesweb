@@ -12,7 +12,7 @@ const Footer = () => {
       <div className="flex flex-col md:flex-row gap-y-10 justify-center md:justify-evenly items-center md:p-8 px-4 py-8">
         <div className="flex flex-col text-center md:text-start gap-5 md:w-[23%]">
           <h2 className="text-lg font-semibold">Electrical Engineering Society</h2>
-          <p>National Institute of Technology, Jamshedpur Jharkhand, 834839 <br /> India</p>
+          <p>National Institute of Technology, Jamshedpur Jharkhand, 831014 <br /> India</p>
           <div>
             <p className="font-medium">Linkedin : <span className="font-normal">@eesnitjsr</span></p>
             <p className="font-medium">Email : <span className="font-normal">eesnitjsr@gmail.com</span></p>

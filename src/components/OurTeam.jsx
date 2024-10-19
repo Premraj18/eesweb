@@ -29,8 +29,8 @@ const OurTeam = () => {
                                 <h2 className='text-lg font-semibold'>Ravi Bhusan</h2>
                                 <p>Associate Professor, Electrical Engineering Department</p>
                                 <div className='flex gap-6 text-xl'>
-                                <a href="https://www.linkedin.com/in/dr-ravi-bhushan-aa995053/" target='_blank' rel="noreferrer"><BsLinkedin className='cursor-pointer'/></a>
-                                    <MdMail className='cursor-pointer'/>
+                                    <a href="https://www.linkedin.com/in/dr-ravi-bhushan-aa995053/" target='_blank' rel="noreferrer"><BsLinkedin className='cursor-pointer'/></a>
+                                    <a href="mailto:2021ugee041@nitjsr.ac.in" target='_blank' rel="noreferrer"><MdMail className='cursor-pointer'/></a>   
                                 </div>
                             </div>
                         </div>
@@ -48,8 +48,8 @@ const OurTeam = () => {
                                 <h2 className='text-lg font-semibold'>Arvind Prjapati</h2>
                                 <p>Associate Professor, Electrical Engineering Department</p>
                                 <div className='flex gap-6 text-xl'>
-                                <a href="https://www.linkedin.com/in/dr-arvind-kumar-prajapati-1214618a/" target='_blank' rel="noreferrer"><BsLinkedin className='cursor-pointer'/></a>
-                                    <MdMail className='cursor-pointer'/>
+                                    <a href="https://www.linkedin.com/in/dr-arvind-kumar-prajapati-1214618a/" target='_blank' rel="noreferrer"><BsLinkedin className='cursor-pointer'/></a>
+                                    <a href="mailto:2021ugee041@nitjsr.ac.in" target='_blank' rel="noreferrer"><MdMail className='cursor-pointer'/></a>   
                                 </div>
                             </div>
                         </div>
@@ -68,8 +68,8 @@ const OurTeam = () => {
                                 <h2 className='text-lg font-semibold'>Indrajeet</h2>
                                 <p>President</p>
                                 <div className='flex gap-6 text-xl'>
-                                <a href="https://www.linkedin.com/in/indrajeet-kumar-919b69255/" target='_blank' rel="noreferrer"><BsLinkedin className='cursor-pointer'/></a>
-                                    <MdMail className='cursor-pointer'/>
+                                    <a href="https://www.linkedin.com/in/indrajeet-kumar-919b69255/" target='_blank' rel="noreferrer"><BsLinkedin className='cursor-pointer'/></a>
+                                    <a href="mailto:2021ugee040@nitjsr.ac.in" target='_blank' rel="noreferrer"><MdMail className='cursor-pointer'/></a>   
                                 </div>
                             </div>
                         </div>
@@ -85,8 +85,8 @@ const OurTeam = () => {
                                 <h2 className='text-lg font-semibold'>Deepanshu Garg</h2>
                                 <p>Vice President</p>
                                 <div className='flex gap-6 text-xl'>
-                                <a href="https://www.linkedin.com/in/deepanshu-garg-515a9022a/" target='_blank' rel="noreferrer"><BsLinkedin className='cursor-pointer'/></a>
-                                    <MdMail className='cursor-pointer'/>
+                                    <a href="https://www.linkedin.com/in/deepanshu-garg-515a9022a/" target='_blank' rel="noreferrer"><BsLinkedin className='cursor-pointer'/></a>
+                                    <a href="mailto:2021ugee041@nitjsr.ac.in" target='_blank' rel="noreferrer"><MdMail className='cursor-pointer'/></a>   
                                 </div>
                             </div>
                         </div>

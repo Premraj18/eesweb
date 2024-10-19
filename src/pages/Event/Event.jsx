@@ -83,6 +83,13 @@ const events = [
   description: 'Electrical engineering is full of fascinating concepts and challenges that test the mind. Qrious is a quiz-based event that taps into this intellectual curiosity, covering topics from core electrical engineering to emerging technologies. This event sharpens participants knowledge, keeping them up to date with the latest advancements in the field, while providing an exciting and competitive atmosphere.',
   image: '/Events/qurious.webp', 
 },
+{
+     
+  id: 12,
+  title: 'Fun Event',
+  description: 'The fun events will offer a dynamic blend of entertainment and amusement, creating a lively and playful environment for participants. These events will span both online and offline formats, featuring engaging video games, thrilling treasure hunts, and a variety of interactive physical and cultural activities. Designed to foster connection and enjoyment, these events promise to provide an exciting and memorable experience for everyone involved.',
+  image: '/Events/fun.webp', 
+},
 
   
 ];

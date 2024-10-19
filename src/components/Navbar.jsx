@@ -81,7 +81,7 @@ export default function Navbar() {
             <p className={`lg:text-lg text-base ${subpage === 'home' && hidden == !true ? 'text-white' : 'text-black'}`}>Home</p>
           </Link>
           <Link to={'/about'} className={Linkness('about')}>
-            <p className={`lg:text-lg text-base ${subpage === 'home' && hidden == !true ? 'text-white' : 'text-black'}`}>About Us </p>
+            <p className={`lg:text-lg text-base ${subpage === 'home' && hidden == !true ? 'text-white' : 'text-black'}`}>About </p>
           </Link>
           <Link to={'/event'} className={Linkness('event')}>
             <p className={`lg:text-lg text-base ${subpage === 'home' && hidden == !true ? 'text-white' : 'text-black'}`}>Events </p>
@@ -94,13 +94,13 @@ export default function Navbar() {
             <p className={`lg:text-lg text-base ${subpage === 'home' && hidden == !true ? 'text-white' : 'text-black'}`}>Our Team </p>
           </Link>
 
-          <Link to={'/contact'} className={Linkness('contact')}>
+          {/* <Link to={'/contact'} className={Linkness('contact')}>
             <p className={`lg:text-lg text-base ${subpage === 'home' && hidden == !true ? 'text-white' : 'text-black'}`}>Contact Us </p>
-          </Link>
+          </Link> */}
         </div>
         <div className='md:flex lg:text-xl text-base hidden items-baseline gap-7 max-sm:justify-end max-sm:flex-1'>
-          <Link to='/sponser'>
-            <button className={`px-2 py-1 text-base border-2 rounded-full border-orange-600 hover:bg-orange-700 hover:text-white ${subpage === 'home' && hidden == !true ? 'text-white' : 'text-black'}`} >Sponser Us</button>
+          <Link to='/contact'>
+            <button className={`px-2 py-1 text-base border-2 rounded-full border-orange-600 hover:bg-orange-700 hover:text-white ${subpage === 'home' && hidden == !true ? 'text-white' : 'text-black'}`} >Contact Us</button>
           </Link>
         </div>
 
@@ -113,7 +113,7 @@ export default function Navbar() {
           <div className='flex flex-col border-t-2 py-5 justify-center items-center mt-12 gap-10'>
             <div className='flex flex-col text-lg items-center justify-center gap-y-6'>
               <Link to={'/about'} className={Linkness('about')}>
-                <p className='lg:text-lg text-base'>About Us </p>
+                <p className='lg:text-lg text-base'>About </p>
               </Link>
               <Link to={'/event'} className={Linkness('event')}>
                 <p className='lg:text-lg text-base'>Events </p>
@@ -131,13 +131,13 @@ export default function Navbar() {
                 <p className='lg:text-lg text-base'>Our Team </p>
               </Link>
 
-              <Link to={'/contact'} className={Linkness('contact')}>
+              {/* <Link to={'/contact'} className={Linkness('contact')}>
                 <p className='lg:text-lg text-base'>Contact Us </p>
-              </Link>
+              </Link> */}
             </div>
             <div className='flex lg:text-xl text-xl md:text-base items-baseline gap-7 max-sm:justify-end max-sm:flex-1'>
-              <Link to='/sponser'>
-                <button className={`px-2 py-1 text-base border-2 rounded-full border-orange-600 hover:bg-orange-700 hover:text-white ${subpage === 'home' && hidden == !true ? 'text-white' : 'text-black'}`} >Sponser Us</button>
+              <Link to='/contact'>
+                <button className={`px-2 py-1 text-base border-2 rounded-full border-orange-600 hover:bg-orange-700 hover:text-white ${subpage === 'home' && hidden == !true ? 'text-white' : 'text-black'}`} >Contact Us</button>
               </Link>
             </div>
           </div>
