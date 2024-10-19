@@ -112,17 +112,15 @@ export default function Navbar() {
           <span onClick={toggleCart} className="absolute top-8 right-4 cursor-pointer"><RxCross2 size={30} /></span>
           <div className='flex flex-col border-t-2 py-5 justify-center items-center mt-12 gap-10'>
             <div className='flex flex-col text-lg items-center justify-center gap-y-6'>
+             <Link to={'/'} className={Linkness('home')}>
+                <p className='lg:text-lg text-base'>Home</p>
+              </Link>
               <Link to={'/about'} className={Linkness('about')}>
                 <p className='lg:text-lg text-base'>About </p>
               </Link>
               <Link to={'/event'} className={Linkness('event')}>
                 <p className='lg:text-lg text-base'>Events </p>
               </Link>
-
-              <Link to={'/sponser'} className={Linkness('sponser')}>
-                <p className='lg:text-lg text-base'>Sponser US </p>
-              </Link>
-
               <Link to={'/gallery'} className={Linkness('gallery')}>
                 <p className='lg:text-lg text-base'>Gallery </p>
               </Link>
