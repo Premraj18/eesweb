@@ -29,7 +29,7 @@ const OurTeam = () => {
                                 <h2 className='text-lg font-semibold'>Ravi Bhusan</h2>
                                 <p>Associate Professor, Electrical Engineering Department</p>
                                 <div className='flex gap-6 text-xl'>
-                                    <BsLinkedin className='cursor-pointer' />
+                                <a href="https://www.linkedin.com/in/dr-ravi-bhushan-aa995053/" target='_blank' rel="noreferrer"><BsLinkedin className='cursor-pointer'/></a>
                                     <MdMail className='cursor-pointer'/>
                                 </div>
                             </div>
@@ -48,7 +48,7 @@ const OurTeam = () => {
                                 <h2 className='text-lg font-semibold'>Arvind Prjapati</h2>
                                 <p>Associate Professor, Electrical Engineering Department</p>
                                 <div className='flex gap-6 text-xl'>
-                                    <BsLinkedin className='cursor-pointer' />
+                                <a href="https://www.linkedin.com/in/dr-arvind-kumar-prajapati-1214618a/" target='_blank' rel="noreferrer"><BsLinkedin className='cursor-pointer'/></a>
                                     <MdMail className='cursor-pointer'/>
                                 </div>
                             </div>
@@ -68,7 +68,7 @@ const OurTeam = () => {
                                 <h2 className='text-lg font-semibold'>Indrajeet</h2>
                                 <p>President</p>
                                 <div className='flex gap-6 text-xl'>
-                                    <BsLinkedin className='cursor-pointer' />
+                                <a href="https://www.linkedin.com/in/indrajeet-kumar-919b69255/" target='_blank' rel="noreferrer"><BsLinkedin className='cursor-pointer'/></a>
                                     <MdMail className='cursor-pointer'/>
                                 </div>
                             </div>
@@ -83,9 +83,9 @@ const OurTeam = () => {
                             <img src="/2k21/deepanshu.webp" alt="" className='w-28 h-28 md:w-32 md:h-32 shadow-md object-cover rounded-[100%]' />
                             <div className='flex flex-col gap-4'>
                                 <h2 className='text-lg font-semibold'>Deepanshu Garg</h2>
-                                <p>Wise President</p>
+                                <p>Vice President</p>
                                 <div className='flex gap-6 text-xl'>
-                                    <BsLinkedin className='cursor-pointer' />
+                                <a href="https://www.linkedin.com/in/deepanshu-garg-515a9022a/" target='_blank' rel="noreferrer"><BsLinkedin className='cursor-pointer'/></a>
                                     <MdMail className='cursor-pointer'/>
                                 </div>
                             </div>

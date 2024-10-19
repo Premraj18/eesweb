@@ -84,7 +84,7 @@ const Team = () => {
                                 <p>Associate Professor, Electrical Engineering Department</p>
                                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora aspernatur aut perspiciatis!</p>
                                 <div className='flex gap-6 text-xl'>
-                                    <BsLinkedin className='cursor-pointer'/>
+                                <a href="https://www.linkedin.com/in/dr-ravi-bhushan-aa995053/" target='_blank' rel="noreferrer"><BsLinkedin className='cursor-pointer'/></a>
                                     <MdMail className='cursor-pointer'/>
                                 </div>
                             </div>
@@ -103,7 +103,7 @@ const Team = () => {
                                 <p>Associate Professor, Electrical Engineering Department</p>
                                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora aspernatur aut perspiciatis!</p>
                                 <div className='flex gap-6 text-xl'>
-                                    <BsLinkedin className='cursor-pointer'/>
+                                    <a href="https://www.linkedin.com/in/dr-arvind-kumar-prajapati-1214618a/" target='_blank' rel="noreferrer"><BsLinkedin className='cursor-pointer'/></a>
                                     <MdMail className='cursor-pointer'/>
                                 </div>
                             </div>
