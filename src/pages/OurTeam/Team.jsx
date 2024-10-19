@@ -19,7 +19,7 @@ const Team = () => {
         <Layout>
             <div className='bg-slate-100'>
                 <div className='bg-slate-100 flex flex-col justify-center items-center h-full w-full pt-28'>
-                    <h2 className='md:text-5xl text-3xl text-black font-semibold'>Team EES</h2>
+                    <h2 className='md:text-5xl text-3xl text-orange-600 font-semibold'>Team EES</h2>
                 </div>
                 <div className='w-full flex items-center justify-center mt-10 px-5'>
                     <p className='text-center lg:w-2/3'>We are Team EES, a dynamic blend of dedicated faculty and 

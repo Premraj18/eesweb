@@ -25,7 +25,7 @@ const About = () => {
                 <div className='bg-slate-100 flex flex-col justify-center items-center h-full w-full pt-28' style={{
                     // background: 'linear-gradient(to bottom, rgba(2, 2, 2, 0.633), rgba(2, 2, 2, 0.633))'
                 }}>
-                    <h2 className='md:text-5xl text-3xl text-black font-semibold'>About Us</h2>
+                    <h2 className='md:text-5xl text-3xl text-orange-600 font-semibold'>About Us</h2>
                     <p className='text-black md:text-lg md:mt-10 mt-6 md:w-[900px] text-center px-5'>Welcome to the Electrical Engineering Society (EES) 
                         at the National Institute of Technology, Jamshedpur, where knowledge meets innovation. Driven by a passion for holistic development, 
                         we specialize in empowering students with the skills and experiences necessary to navigate both academic and real-world technological 

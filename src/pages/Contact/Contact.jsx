@@ -51,7 +51,7 @@ const Contact = () => {
                     <div className='flex flex-col items-center h-full w-full' style={{
                         // background: 'linear-gradient(to bottom, rgba(2, 2, 2, 0.633), rgba(2, 2, 2, 0.633))'
                     }}>
-                        <h2 className='md:text-5xl text-3xl text-black mt-28 font-bold'>Contact Us</h2>
+                        <h2 className='md:text-5xl text-3xl text-orange-600 mt-28 font-bold'>Contact Us</h2>
                         <p className='text-black text-lg mt-5 md:w-[600px] text-center px-10'>We use an agile approach to test assumptions and connect with the needs of your audience early and often.</p>
                     </div>
                 </div>
