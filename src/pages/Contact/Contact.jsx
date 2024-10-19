@@ -114,7 +114,7 @@ const Contact = () => {
 
                         <h2 className="mt-4 text-lg font-medium text-gray-800 ">Email</h2>
                         <p className="mt-2 text-gray-500 ">Our friendly team is here to help.</p>
-                        <p className="mt-2 text-orange-500 ">hello@merakiui.com</p>
+                        <p className="mt-2 text-orange-500 ">eesnitjsr@gmail.com</p>
                     </div>
 
                     <div className="flex flex-col items-center justify-center text-center">
@@ -126,8 +126,8 @@ const Contact = () => {
                         </span>
 
                         <h2 className="mt-4 text-lg font-medium text-gray-800 ">Office</h2>
-                        <p className="mt-2 text-gray-500 ">Come say hello at our office HQ.</p>
-                        <p className="mt-2 text-orange-500 ">100 Smith Street Collingwood VIC 3066 AU</p>
+                        <p className="mt-2 text-gray-500 ">Drop mail before coming</p>
+                        <p className="mt-2 text-orange-500 ">Electrical Engineering Department</p>
                     </div>
 
                     <div className="flex flex-col items-center justify-center text-center">
@@ -139,7 +139,7 @@ const Contact = () => {
 
                         <h2 className="mt-4 text-lg font-medium text-gray-800 ">Phone</h2>
                         <p className="mt-2 text-gray-500 ">Mon-Fri from 8am to 5pm.</p>
-                        <p className="mt-2 text-orange-500 ">+1 (555) 000-0000</p>
+                        <p className="mt-2 text-orange-500 ">+91 1234567890</p>
                     </div>
                 </div>
             </div>
