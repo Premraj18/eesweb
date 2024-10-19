@@ -135,7 +135,7 @@ export default function Navbar() {
             </div>
             <div className='flex lg:text-xl text-xl md:text-base items-baseline gap-7 max-sm:justify-end max-sm:flex-1'>
               <Link to='/contact'>
-                <button className={`px-2 py-1 text-base border-2 rounded-full border-orange-600 hover:bg-orange-700 hover:text-white ${subpage === 'home' && hidden == !true ? 'text-white' : 'text-black'}`} >Contact Us</button>
+                <button className={`px-2 py-1 text-base border-2 rounded-full border-orange-600 hover:bg-orange-700 text-black`} >Contact Us</button>
               </Link>
             </div>
           </div>
