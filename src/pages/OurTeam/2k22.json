@@ -4,49 +4,56 @@
         "name": "Gangadhar Rajput",
         "designation": "Joint Secretary",
         "img": "/2k22/gangadhar.webp",
-        "linkedin": "https://www.linkedin.com/in/gangadhar-rajput-784152258/"
+        "linkedin": "https://www.linkedin.com/in/gangadhar-rajput-784152258/",
+        "email": "2022ugee011@nitjsr.ac.in"
     },
     {
         "id": "2",
         "name": "Ritisha Ranjan",
         "designation": "Joint Secretary",
         "img": "/2k22/ritisha.webp",
-        "linkedin": "https://www.linkedin.com/in/ritisha-ranjan-1b7180271/"
+        "linkedin": "https://www.linkedin.com/in/ritisha-ranjan-1b7180271/",
+        "email": "2022ugee053@nitjsr.ac.in"
     },
     {
         "id": "6",
         "name": "Premraj",
         "designation": "Member",
         "img": "/2k22/prem.webp",
-        "linkedin": "https://www.linkedin.com/in/prem-raj-a802682a7/"
+        "linkedin": "https://www.linkedin.com/in/prem-raj-a802682a7/",
+        "email": "2022ugee073@nitjsr.ac.in"
     },
     {
         "id": "7",
         "name": "Naman",
         "designation": "Member",
         "img": "/2k22/naman.webp",
-        "linkedin": "https://www.linkedin.com/in/naman-parashar-216418179/"
+        "linkedin": "https://www.linkedin.com/in/naman-parashar-216418179/",
+         "email": "2022ugee090@nitjsr.ac.in"
     },
     {
         "id": "3",
         "name": "Ayush",
         "designation": "Member",
         "img": "/2k22/ayush.webp",
-        "linkedin": "https://www.linkedin.com/in/ayush-kumar-873619250/"
+        "linkedin": "https://www.linkedin.com/in/ayush-kumar-873619250/",
+         "email": "2022ugee102@nitjsr.ac.in"
     },
     {
         "id": "4",
         "name": "Anuradha",
         "designation": "Member",
         "img": "/2k22/anuradha.webp",
-        "linkedin": "https://www.linkedin.com/in/anuradha-gupta-0382b2271"
+        "linkedin": "https://www.linkedin.com/in/anuradha-gupta-0382b2271",
+         "email": "2022ugee097@nitjsr.ac.in"
     },
     {
         "id": "5",
         "name": "Ankit",
         "designation": "Member",
         "img": "/2k22/ankit.webp",
-        "linkedin": "https://www.linkedin.com/in/ankit-aryan-b02919223/"
+        "linkedin": "https://www.linkedin.com/in/ankit-aryan-b02919223/",
+         "email": "2022ugee019@nitjsr.ac.in"
     },
     
     {
@@ -54,62 +61,71 @@
         "name": "Nikita",
         "designation": "Member",
         "img": "/2k22/nikita.webp",
-        "linkedin": "https://www.linkedin.com/in/nikita-kumari-41b9aa254/"
+        "linkedin": "https://www.linkedin.com/in/nikita-kumari-41b9aa254/",
+         "email": "2022ugee068@nitjsr.ac.in"
     },
     {
         "id": "9",
         "name": "Ashutosh",
         "designation": "Member",
         "img": "/2k22/ashutosh.webp",
-        "linkedin": "https://www.linkedin.com/in/ashutosh-tiwari-417447255/"
+        "linkedin": "https://www.linkedin.com/in/ashutosh-tiwari-417447255/",
+         "email": "2022ugee075@nitjsr.ac.in"
     },
     {
         "id": "10",
         "name": "Ishita Dixit",
         "designation": "Member",
         "img": "/2k22/ishita.webp",
-        "linkedin": "https://www.linkedin.com/in/ishita-dixit-b89538255"
+        "linkedin": "https://www.linkedin.com/in/ishita-dixit-b89538255",
+         "email": "2022ugee022@nitjsr.ac.in"
     },
     {
         "id": "11",
         "name": "Pranjal",
         "designation": "Member",
         "img": "/2k22/pranjal.webp",
-        "linkedin": "https://www.linkedin.com/in/pranjal-rai-241550202/"
+        "linkedin": "https://www.linkedin.com/in/pranjal-rai-241550202/",
+         "email": "2022ugee099@nitjsr.ac.in"
     },
     {
         "id": "12",
         "name": "Saksham",
         "designation": "Member",
         "img": "/2k22/saksham.webp",
-        "linkedin": "https://www.linkedin.com/in/saksham-maurya-099078254"
+        "linkedin": "https://www.linkedin.com/in/saksham-maurya-099078254",
+         "email": "2022ugee079@nitjsr.ac.in"
     },
     {
         "id": "13",
         "name": "Sumit Kumar Barnawal",
         "designation": "Member",
         "img": "/2k22/sumit.webp",
-        "linkedin": "https://www.linkedin.com/in/sumitkb2004/"
+        "linkedin": "https://www.linkedin.com/in/sumitkb2004/",
+         "email": "2022ugee071@nitjsr.ac.in"
     },
     {
         "id": "14",
         "name": "Sujal Kumar",
         "designation": "Member",
         "img": "/2k22/sujal.webp",
-        "linkedin": "https://www.linkedin.com/in/sujal-kumar-a197b6242/"
+        "linkedin": "https://www.linkedin.com/in/sujal-kumar-a197b6242/",
+         "email": "2022ugee044@nitjsr.ac.in"
     },
     {
         "id": "15",
         "name": "Debdatta Das",
         "designation": "Member",
         "img": "/2k22/devdatta.webp",
-        "linkedin": "https://www.linkedin.com/in/debdatta-das-a89789271/"
+        "linkedin": "https://www.linkedin.com/in/debdatta-das-a89789271/",
+         "email": "2022ugee045@nitjsr.ac.in"
     },
     {
         "id": "16",
         "name": "Abhinav",
         "designation": "Member",
         "img": "/2k22/abhinav.webp",
-        "linkedin": "https://www.linkedin.com/in/abhinav-tiwari-5113b3228/"
+        "linkedin": "https://www.linkedin.com/in/abhinav-tiwari-5113b3228/",
+         "email": "2022ugee109@nitjsr.ac.in"
     }
 ]
