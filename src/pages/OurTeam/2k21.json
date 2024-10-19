@@ -5,7 +5,7 @@
         "designation": "Vice-President",
         "img": "/2k21/deepanshu.webp",
         "linkedin": "https://www.linkedin.com/in/deepanshu-garg-515a9022a/",
-        "email": "2021ugee041@nitjsr.ac.in"
+        "email": "mailto:2021ugee041@nitjsr.ac.in"
     },
     {
         "id": "3",
@@ -13,7 +13,7 @@
         "designation": "General Secreatary",
         "img": "/2k21/harsh.webp",
         "linkedin": "https://www.linkedin.com/in/harsh-tiwary-431534224/",
-        "email": "2021ugee010@nitjsr.ac.in"
+        "email": "mailto:2021ugee010@nitjsr.ac.in"
     },
     {
         "id": "4",
@@ -37,7 +37,7 @@
         "designation": "Treasurer",
         "img": "/2k21/aditya2.webp",
         "linkedin": "https://www.linkedin.com/in/aditya-agrawal-208701236/",
-        "email": "2021ugee043@nitjsr.ac.in"
+        "email": "mailto:2021ugee043@nitjsr.ac.in"
     },
     
     {
@@ -46,7 +46,7 @@
         "designation": "Corporative Affairs",
         "img": "/2k21/samar.webp",
         "linkedin": "https://www.linkedin.com/in/samar-raghuvanshi-1a7362224/",
-        "email": "2021ugee004@nitjsr.ac.in"
+        "email": "mailto:2021ugee004@nitjsr.ac.in"
     },
     {
         "id": "10",
@@ -62,7 +62,7 @@
         "designation": "Corporative Affairs",
         "img": "/2k21/divyanshu.webp",
         "linkedin": "https://www.linkedin.com/in/divyanshu-kumar-singh-57ba3527a/",
-        "email": "2021ugee064@nitjsr.ac.in"
+        "email": "mailto:2021ugee064@nitjsr.ac.in"
     },
     {
         "id": "21",
@@ -70,7 +70,7 @@
         "designation": "PR Head",
         "img": "/2k21/aditya.webp",
         "linkedin": "https://www.linkedin.com/in/aditya-sonkar-363b2423a/",
-        "email": "2021ugee033@nitjsr.ac.in"
+        "email": "mailto:2021ugee033@nitjsr.ac.in"
     },
     {
         "id": "12",
@@ -78,7 +78,7 @@
         "designation": "Craetive Head",
         "img": "/2k21/abhinav.webp",
         "linkedin": "https://www.linkedin.com/in/abhinav-raj-43400b23a/",
-        "email": "2021ugee071@nitjsr.ac.in"
+        "email": "mailto:2021ugee071@nitjsr.ac.in"
     },
     {
         "id": "13",
@@ -86,7 +86,7 @@
         "designation": "Craetive Head",
         "img": "/2k21/shubham.webp",
         "linkedin": "https://www.linkedin.com/in/shubham-kumar-2b2a4b201/",
-        "email": "2021ugee096@nitjsr.ac.in"
+        "email": "mailto:2021ugee096@nitjsr.ac.in"
     },
     {
         "id": "15",
@@ -94,7 +94,7 @@
         "designation": "Content Head",
         "img": "/2k21/shruti.webp",
         "linkedin": "https://www.linkedin.com/in/shruti-priya-b43870223/",
-        "email": "2021ugee077@nitjsr.ac.in"
+        "email": "mailto:2021ugee077@nitjsr.ac.in"
     },
     {
         "id": "6",
@@ -102,7 +102,7 @@
         "designation": "Event Head",
         "img": "/2k21/sandeep.webp",
         "linkedin": "https://www.linkedin.com/in/sandeep-kumar-567028278/",
-        "email": "2021ugee058@nitjsr.ac.in"
+        "email": "mailto:2021ugee058@nitjsr.ac.in"
     },
     {
         "id": "7",
@@ -110,7 +110,7 @@
         "designation": "Event Head",
         "img": "/2k21/ritik.webp",
         "linkedin": "https://www.linkedin.com/in/ritik-kumar-05b5b923b/",
-        "email": "2021ugee065@nitjsr.ac.in"
+        "email": "mailto:2021ugee065@nitjsr.ac.in"
     },
     {
         "id": "8",
@@ -118,7 +118,7 @@
         "designation": "Event Head",
         "img": "/2k21/gaurav.webp",
         "linkedin": "https://www.linkedin.com/in/gaurav-kg/",
-        "email": "2021ugee057@nitjsr.ac.in"
+        "email": "mailto:2021ugee057@nitjsr.ac.in"
     },
     {
         "id": "27",
@@ -126,7 +126,7 @@
         "designation": "Event Head",
         "img": "/2k21/priyanshu.webp",
         "linkedin": "https://www.linkedin.com/in/priyanshu-raj-7049a522b/",
-        "email": "2021ugee068@nitjsr.ac.in"
+        "email": "mailto:2021ugee068@nitjsr.ac.in"
     }
     
 ]

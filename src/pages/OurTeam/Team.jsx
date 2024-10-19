@@ -85,7 +85,7 @@ const Team = () => {
                                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora aspernatur aut perspiciatis!</p>
                                 <div className='flex gap-6 text-xl'>
                                     <a href="https://www.linkedin.com/in/dr-ravi-bhushan-aa995053/" target='_blank' rel="noreferrer"><BsLinkedin className='cursor-pointer'/></a>
-                                    <a href="mailto:2021ugee041@nitjsr.ac.in" target='_blank' rel="noreferrer"><MdMail className='cursor-pointer'/></a>   
+                                    <a href="mailto:ravi.ee@nitjsr.ac.in" target='_blank' rel="noreferrer"><MdMail className='cursor-pointer'/></a>   
                                 </div>
                             </div>
                         </div>
@@ -104,7 +104,7 @@ const Team = () => {
                                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora aspernatur aut perspiciatis!</p>
                                 <div className='flex gap-6 text-xl'>
                                     <a href="https://www.linkedin.com/in/dr-arvind-kumar-prajapati-1214618a/" target='_blank' rel="noreferrer"><BsLinkedin className='cursor-pointer'/></a>
-                                    <a href="mailto:2021ugee041@nitjsr.ac.in" target='_blank' rel="noreferrer"><MdMail className='cursor-pointer'/></a>   
+                                    <a href="mailto:arvind.ee@nitjsr.ac.in" target='_blank' rel="noreferrer"><MdMail className='cursor-pointer'/></a>   
                                 </div>
                             </div>
                         </div>
