@@ -73,7 +73,7 @@ const Gallery = () => {
   return (
     <Layout>
       <div className="App pt-28 bg-slate-100">
-        <h2 className='text-center text-4xl font-semibold'> Our Memories</h2>
+        <h2 className='text-center text-4xl text-orange-600 font-semibold'> Our Memories</h2>
         <div className="galleryWrapper px-5 py-14">
           <div className="filterItem mb-16">
             <ul>

@@ -43,8 +43,8 @@ const HeroSection = () => {
             whileInView='animate'
           >
             <div className='flex flex-col items-center justify-center text-white pt-20 '>
-              <motion.h2 className='text-4xl text-center md:w-4/6 sm:text-7xl font-semibold my-4 sm:my-10' variants={variants}>
-                We Ensure a better education for a better world
+              <motion.h2 className='text-4xl text-center md:w-4/6 sm:text-6xl font-semibold my-4 sm:my-10' variants={variants}>
+              We ensure innovation through learning and passion
               </motion.h2>
               <motion.p className='px-5 md:px-0 md:w-3/5 text-center sm:mb-10 mb-1 sm:text-lg' variants={variants}>
               "Empowering Innovation in Electrical Engineering Together through learning and passion”
