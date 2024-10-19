@@ -68,7 +68,7 @@ const Data = [
     id: "11",
     title: "QRIOUS",
     description: "A brain-teasing challenge, qrious is a quiz based event revolving around the dynamic universe of electrical engineering and related sciences, stimulating intellectual curiosity.",
-    imgUrl: "/Events/abhyas.webp"
+    imgUrl: "/Events/qurious.webp"
   }
 ]
 
