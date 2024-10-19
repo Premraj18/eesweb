@@ -71,7 +71,7 @@ const Data = [
     imgUrl: "/Events/qurious.webp"
   }
 ]
-
+// hu
 function EventCard() {
 
   const settings = useMemo(() => {
