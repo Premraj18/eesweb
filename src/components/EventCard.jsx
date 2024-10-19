@@ -8,55 +8,55 @@ const Data = [
     id: "1",
     title: " ELECTRO-SPECTION",
     description: "Electrical circuits form the foundation of power generation, and in this event, participants design and construct electrical and electronic circuits swiftly and efficiently on a breadboard.",
-    imgUrl: "/Events/abhyas.webp"
+    imgUrl: "/Events/electr.webp"
   },
   {
     id: "2",
     title: "MATLINK",
     description: "Solving intricate Electrical Enginnering challenges necessitates the application of Mathematical and analytical tools, A skill set put to the test in this event that delves into the capativating realm of matlab.",
-    imgUrl: "/Events/abhyas.webp"
+    imgUrl: "/Events/matlink.webp"
   },
   {
     id: "3",
     title: "PROGEM",
     description: "It is crucial to control and realize the working of industrial equipment. this event deals with PLC(Programmable Logic Controller).",
-    imgUrl: "/Events/abhyas.webp"
+    imgUrl: "/Events/progem.webp"
   },
   {
     id: "4",
     title: "NAVRITI",
     description: "The art of paper presentation requires study, implementation and presentation of ideas. students will need to present their ideas in a scientific and research-oriented manner.",
-    imgUrl: "/Events/abhyas.webp"
+    imgUrl: "/Events/navriti.webp"
   },
   {
     id: "5",
     title: "I-MATTER",
     description: "I-matter offers students a unique industrial visit, providing firsthand exposure to real world technology operations, and bridging the gap between theory and practice.",
-    imgUrl: "/Events/abhyas.webp"
+    imgUrl: "/Events/imatter.webp"
   },
   {
     id: "6",
     title: "ADHYAYAN",
     description: "This event involves a case-study in which all major decisions related to the organisation are taken. this event will bring in great white-collar experience.",
-    imgUrl: "/Events/abhyas.webp"
+    imgUrl: "/Events/adhyayan.webp"
   },
   {
     id: "7",
     title: "PAIR-IN-THESIS",
     description: "Codes are the bricks on which magnificent castles can be built. this event revolves around the interesting world of competitive programming.",
-    imgUrl: "/Events/abhyas.webp"
+    imgUrl: "/Events/pair.webp"
   },
   {
     id: "8",
     title: "ELECTRO-HACK",
     description: "This event provides students a platform to solve some problems we face in our daily lives, and thus inculcate a culture of product innovation and problem solving",
-    imgUrl: "/Events/abhyas.webp"
+    imgUrl: "/Events/elctrohack.webp"
   },
   {
     id: "9",
     title: "ANALYTICA",
     description: "Analytica is designed to evaluate participants' analytical and problem solving skills while introducing them to the trending domains of data analytics and data science.",
-    imgUrl: "/Events/abhyas.webp"
+    imgUrl: "/Events/analytics.webp"
   },
   {
     id: "10",
