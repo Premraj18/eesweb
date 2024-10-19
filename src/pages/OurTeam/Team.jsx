@@ -62,7 +62,7 @@ const Team = () => {
                                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora aspernatur aut perspiciatis!</p>
                                 <div className='flex gap-6 text-xl'>
                                     <a href="https://www.linkedin.com/in/indrajeet-kumar-919b69255/" target='_blank' rel="noreferrer"><BsLinkedin /></a>
-                                    <MdMail />
+                                    <a href="mailto:2021ugee040@nitjsr.ac.in" target='_blank' rel="noreferrer"><MdMail className='cursor-pointer'/></a>   
                                 </div>
                             </div>
                         </div>
@@ -84,8 +84,8 @@ const Team = () => {
                                 <p>Associate Professor, Electrical Engineering Department</p>
                                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora aspernatur aut perspiciatis!</p>
                                 <div className='flex gap-6 text-xl'>
-                                <a href="https://www.linkedin.com/in/dr-ravi-bhushan-aa995053/" target='_blank' rel="noreferrer"><BsLinkedin className='cursor-pointer'/></a>
-                                    <MdMail className='cursor-pointer'/>
+                                    <a href="https://www.linkedin.com/in/dr-ravi-bhushan-aa995053/" target='_blank' rel="noreferrer"><BsLinkedin className='cursor-pointer'/></a>
+                                    <a href="mailto:2021ugee041@nitjsr.ac.in" target='_blank' rel="noreferrer"><MdMail className='cursor-pointer'/></a>   
                                 </div>
                             </div>
                         </div>
@@ -104,7 +104,7 @@ const Team = () => {
                                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora aspernatur aut perspiciatis!</p>
                                 <div className='flex gap-6 text-xl'>
                                     <a href="https://www.linkedin.com/in/dr-arvind-kumar-prajapati-1214618a/" target='_blank' rel="noreferrer"><BsLinkedin className='cursor-pointer'/></a>
-                                    <MdMail className='cursor-pointer'/>
+                                    <a href="mailto:2021ugee041@nitjsr.ac.in" target='_blank' rel="noreferrer"><MdMail className='cursor-pointer'/></a>   
                                 </div>
                             </div>
                         </div>
