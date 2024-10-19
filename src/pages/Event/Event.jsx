@@ -10,78 +10,78 @@ const events = [
     
   id: 1,
   title: 'MatLink',
-  description: 'Solving intricate electrical engineering challenges requires the application of mathematical and analytical tools. This skill set is put to the test in MatLink, an event that explores the captivating realm of MATLAB.',
-  image: 'https://media.gettyimages.com/id/864312572/photo/friends-celebrating-new-year-on-the-rooftop.jpg?s=612x612&w=0&k=20&c=yf2Hvb8MtJnQiOrVm9z68X_6l7yK8JG0IxQoQNGRb-s=', 
+  description: ' Electrical engineering problems often require the use of mathematical models and simulations. MatLink challenges participants to harness the power of MATLAB, a versatile tool used for solving complex mathematical and engineering problems. This event pushes students to think analytically and apply theoretical concepts to real-world scenarios, providing a deep dive into the computational world of engineering.',
+  image: '/Events/matlink.jpg', 
 },
 {
      
   id: 2,
   title: ' ProGem',
-  description: 'Understanding and controlling industrial equipment is crucial. ProGem is an event focused on Programmable Logic Controllers (PLC), where participants delve into the workings of industrial automation.',
-  image: 'https://media.gettyimages.com/id/864312572/photo/friends-celebrating-new-year-on-the-rooftop.jpg?s=612x612&w=0&k=20&c=yf2Hvb8MtJnQiOrVm9z68X_6l7yK8JG0IxQoQNGRb-s=', 
+  description: ' Industrial automation is the future, and understanding the systems behind it is crucial for modern engineers. ProGem focuses on Programmable Logic Controllers (PLC), the heart of automation in industries. Participants gain hands-on experience in controlling industrial machinery and processes, learning how automation is used to optimize production and reduce human intervention. Its an invaluable experience for anyone looking to work in industrial systems.',
+  image: '/Events/progem.jpg', 
 },
 {
      
   id: 3,
   title: 'Navriti',
-  description: 'The art of paper presentation demands study, implementation, and the effective communication of ideas. In Navriti, students will present their ideas in a scientific and research-oriented manner, honing their presentation skills.',
-  image: 'https://media.gettyimages.com/id/864312572/photo/friends-celebrating-new-year-on-the-rooftop.jpg?s=612x612&w=0&k=20&c=yf2Hvb8MtJnQiOrVm9z68X_6l7yK8JG0IxQoQNGRb-s=',
+  description: ' Effective communication of research is as important as the research itself. Navriti provides a platform for students to present their research and technical ideas in the form of papers. This event not only hones their research and writing skills but also teaches them how to deliver clear and compelling presentations. Students learn the art of technical communication, a key skill for anyone pursuing further studies or a career in research and development.',
+  image: '/Events/navriti.jpg',
 },
 {
      
   id: 4,
   title: 'I-Matter',
-  description:  ' I-Matter offers students a unique opportunity for an industrial visit, providing firsthand exposure to real-world technology operations. This event bridges the gap between theory and practice.',
-  image: 'https://media.gettyimages.com/id/864312572/photo/friends-celebrating-new-year-on-the-rooftop.jpg?s=612x612&w=0&k=20&c=yf2Hvb8MtJnQiOrVm9z68X_6l7yK8JG0IxQoQNGRb-s=', 
+  description:  ' Bridging the gap between classroom learning and industry is essential for an engineering students growth. I-Matter offers students the opportunity to visit industries and see how theories are applied in real-world settings. These industrial visits provide invaluable insights into the daily operations of technology-driven industries, helping participants understand the practical challenges and innovations shaping the field.',
+  image: '/Events/imatter.jpg', 
 },
 {
      
   id: 5,
   title: 'Adhyayan',
-  description: 'Adhyayan involves a case study where participants make key decisions related to an organization. This event provides valuable white-collar experience, simulating real-world corporate decision-making.',
-  image: 'https://media.gettyimages.com/id/864312572/photo/friends-celebrating-new-year-on-the-rooftop.jpg?s=612x612&w=0&k=20&c=yf2Hvb8MtJnQiOrVm9z68X_6l7yK8JG0IxQoQNGRb-s=', 
+  description: 'Decision-making in a corporate environment requires strategic thinking and a deep understanding of business dynamics. Adhyayan simulates this environment by presenting participants with case studies based on real-world organizational problems. Students work in teams to analyze the situation, develop solutions, and make key business decisions, providing a unique opportunity to experience the responsibilities of management and leadership.',
+  image: '/Events/adhyayan.jpg', 
 },
 {
      
   id: 6,
   title: 'Electro-Spection',
-  description: 'Electrical circuits are the foundation of power generation. In Electro-Spection, participants design and construct electrical and electronic circuits swiftly and efficiently on a breadboard.',
-  image: 'https://media.gettyimages.com/id/864312572/photo/friends-celebrating-new-year-on-the-rooftop.jpg?s=612x612&w=0&k=20&c=yf2Hvb8MtJnQiOrVm9z68X_6l7yK8JG0IxQoQNGRb-s=', 
+  description: ' Electrical circuits are the backbone of all modern electronic systems. In Electro-Spection, participants are tasked with designing and building functional electrical and electronic circuits on breadboards. This fast-paced event tests not only their theoretical knowledge but also their ability to quickly and accurately translate designs into working models, enhancing their practical skills in circuit construction and troubleshooting.',
+  image: '/Events/electr.jpg', 
 },
 {
      
   id: 7,
   title: 'Pair-in-Thesis',
-  description: 'Codes are the building blocks of technological innovation. Pair-in-Thesis is an event centered around the exciting world of competitive programming, where participants showcase their coding prowess.',
-  image: 'https://media.gettyimages.com/id/864312572/photo/friends-celebrating-new-year-on-the-rooftop.jpg?s=612x612&w=0&k=20&c=yf2Hvb8MtJnQiOrVm9z68X_6l7yK8JG0IxQoQNGRb-s=', 
+  description: ' Coding is an essential skill for any engineer in today’s digital world. Pair-in-Thesis is a competitive programming event where participants solve coding challenges in pairs, testing their ability to work together and apply algorithms efficiently. Whether solving optimization problems or working on real-time systems, this event helps students sharpen their coding abilities and problem-solving strategies, preparing them for the challenges of modern software development.',
+  image: '/Events/pair.jpg', 
 },
 {
      
   id: 8,
   title: 'Electro-Hack',
-  description: 'Electro-Hack provides students with a platform to solve practical problems faced in daily life. This event encourages a culture of product innovation and problem-solving.',
-  image: 'https://media.gettyimages.com/id/864312572/photo/friends-celebrating-new-year-on-the-rooftop.jpg?s=612x612&w=0&k=20&c=yf2Hvb8MtJnQiOrVm9z68X_6l7yK8JG0IxQoQNGRb-s=', 
+  description: ' Innovation begins with identifying problems and finding effective solutions. Electro-Hack provides participants with real-world problems, challenging them to design and develop solutions using their technical expertise. From concept to prototype, this event encourages students to think outside the box, fostering creativity and innovation while addressing practical issues faced in everyday life.',
+  image: '/Events/elctrohack.jpg', 
 },
 {
      
   id: 9,
   title: 'Analytica',
-  description: 'Analytica is designed to evaluate participants analytical and problem-solving skills while introducing them to the trending fields of data analytics and data science.',
-  image: 'https://media.gettyimages.com/id/864312572/photo/friends-celebrating-new-year-on-the-rooftop.jpg?s=612x612&w=0&k=20&c=yf2Hvb8MtJnQiOrVm9z68X_6l7yK8JG0IxQoQNGRb-s=', 
+  description: 'Data is the new oil, and being able to interpret and use data effectively is a skill in high demand. Analytica is an event where participants dive into data analytics and data science, solving problems that require a keen eye for detail and strong analytical abilities. This event exposes students to the rapidly growing field of data, helping them develop skills that are vital in industries ranging from finance to tech.',
+  image: '/Events/analytics.jpg', 
 },
 {
      
   id: 10,
   title: 'Abhyas',
-  description: 'Placements are of utmost importance. Abhyas tests participants overall communication, technical, and aptitude skills, offering a realistic experience of campus placement processes.',
-  image: 'https://media.gettyimages.com/id/864312572/photo/friends-celebrating-new-year-on-the-rooftop.jpg?s=612x612&w=0&k=20&c=yf2Hvb8MtJnQiOrVm9z68X_6l7yK8JG0IxQoQNGRb-s=', 
+  description: ' Preparing for placements can be daunting, but practice makes perfect. Abhyas is designed to simulate the entire campus placement process, including aptitude tests, group discussions, and technical interviews. Participants are put through their paces in a realistic environment, testing their communication skills, technical knowledge, and problem-solving abilities. This event is essential for anyone looking to secure a job after graduation.',
+  image: '/Events/abhyas.jpg', 
 },
 {
      
   id: 11,
   title: 'Qrious',
-  description: 'Qrious is a brain-teasing, quiz-based event that revolves around the dynamic world of electrical engineering and related sciences, stimulating participants intellectual curiosity.',
-  image: 'https://media.gettyimages.com/id/864312572/photo/friends-celebrating-new-year-on-the-rooftop.jpg?s=612x612&w=0&k=20&c=yf2Hvb8MtJnQiOrVm9z68X_6l7yK8JG0IxQoQNGRb-s=', 
+  description: 'Electrical engineering is full of fascinating concepts and challenges that test the mind. Qrious is a quiz-based event that taps into this intellectual curiosity, covering topics from core electrical engineering to emerging technologies. This event sharpens participants knowledge, keeping them up to date with the latest advancements in the field, while providing an exciting and competitive atmosphere.',
+  image: '/Events/qurious.jpg', 
 },
 
   
@@ -124,3 +124,4 @@ const Event = () => {
 }
 
 export default Event;
+
