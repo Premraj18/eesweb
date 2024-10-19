@@ -22,7 +22,8 @@ const TamCard = ({ item }) => {
                                 <p>{e.designation}</p>
                                 <div className='flex gap-6 text-xl'>
                                     <a href={e.linkedin} target='_blank' rel="noreferrer"><BsLinkedin /></a>
-                                    <MdMail />
+                                    <a href={e.email} target='_blank' rel="noreferrer"><MdMail /></a>
+                                    
                                 </div>
                             </div>
                         </div>
