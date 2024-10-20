@@ -100,7 +100,7 @@ const Team = () => {
                             </div>
                             <div className='flex flex-col gap-3'>
                                 <h2 className='text-lg font-semibold'>Arvind Prajapati</h2>
-                                <p>Associate Professor, Electrical Engineering Department</p>
+                                <p>Assistant Professor, Electrical Engineering Department</p>
                                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora aspernatur aut perspiciatis!</p>
                                 <div className='flex gap-6 text-xl'>
                                     <a href="https://www.linkedin.com/in/dr-arvind-kumar-prajapati-1214618a/" target='_blank' rel="noreferrer"><BsLinkedin className='cursor-pointer'/></a>

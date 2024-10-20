@@ -46,7 +46,7 @@ const OurTeam = () => {
                             </div>
                             <div className='flex flex-col gap-4'>
                                 <h2 className='text-lg font-semibold'>Arvind Prjapati</h2>
-                                <p>Associate Professor, Electrical Engineering Department</p>
+                                <p>Assistant Professor, Electrical Engineering Department</p>
                                 <div className='flex gap-6 text-xl'>
                                     <a href="https://www.linkedin.com/in/dr-arvind-kumar-prajapati-1214618a/" target='_blank' rel="noreferrer"><BsLinkedin className='cursor-pointer'/></a>
                                     <a href="mailto:arvind.ee@nitjsr.ac.in" target='_blank' rel="noreferrer"><MdMail className='cursor-pointer'/></a>   
