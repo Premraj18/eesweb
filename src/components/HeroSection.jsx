@@ -35,18 +35,22 @@ const HeroSection = () => {
         // background: 'linear-gradient(to bottom, rgba(2, 2, 2, 0.633),rgba(2, 2, 2, 0.633))',
       }}>
         <div className='flex flex-col justify-start items-center h-full w-full' style={{
-          background: 'linear-gradient(to bottom, rgba(27, 27, 225, 0.350), rgba(27, 27, 225, 0.350))'
+          background: 'linear-gradient(to bottom, rgba(33, 33, 34, 0.774), rgba(33, 33, 34, 0.774))'
         }}>
           <motion.div className='flex text-black items-center justify-center pt-28 md:pt-32'
             variants={variants}
             initial='initial'
             whileInView='animate'
           >
-            <div className='flex flex-col items-center justify-center text-white pt-20 '>
-              <motion.h2 className='text-4xl text-center md:w-4/6 sm:text-6xl font-semibold my-4 sm:my-10' variants={variants}>
+            <div className='flex flex-col items-center justify-center text-white pt-20 lg:pt-28 '>
+              <motion.h2 className='text-4xl text-center md:w-4/6 sm:text-6xl font-bold my-4 sm:my-10' variants={variants}>
               We ensure innovation through learning and passion
               </motion.h2>
-              <motion.p className='px-5 md:px-0 md:w-3/5 text-center sm:mb-10 mb-1 sm:text-lg' variants={variants}>
+              <motion.p className='px-5 md:px-0 md:w-3/5 text-center sm:mb-10 mb-1 sm:text-2xl font-light' variants={variants}
+                style={{
+                    fontFamily: 'Outfit'
+                }}
+              >
               "Empowering Innovation in Electrical Engineering Together through learning and passion”
               </motion.p>
               {/* <motion.p className='px-5 md:px-0 md:w-1/2 text-center mb-2 sm:mb-8 sm:text-lg' variants={variants}>

@@ -24,7 +24,7 @@ body {
   }
   
   .filterItem ul button {
-    background: #3d93b9;
+    background: rgb(31 41 55);
     color: #fff;
     width: 150px;
     /* padding: 8px 46px; */
@@ -35,7 +35,11 @@ body {
   }
   
   .filterItem ul button:hover {
-    background: #222;
+    background: rgb(99, 111, 129);
     color: #fff;
     cursor: pointer;
   }
+
+/* h2{
+  background: linear-gradient(rgba(33, 33, 34, 0.674));
+} */

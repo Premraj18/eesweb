@@ -26,7 +26,7 @@ const About = () => {
                 <div className='bg-slate-100 flex flex-col justify-center items-center h-full w-full pt-28' style={{
                     // background: 'linear-gradient(to bottom, rgba(2, 2, 2, 0.633), rgba(2, 2, 2, 0.633))'
                 }}>
-                    <h2 className='md:text-5xl text-3xl text-orange-600 font-semibold'>About Us</h2>
+                    <h2 className='md:text-5xl text-3xl text-orange-600 font-bold'>About Us</h2>
                     <p className='text-black md:text-lg md:mt-10 mt-6 md:w-[900px] text-center px-5'>Welcome to the Electrical Engineering Society (EES) 
                         at the National Institute of Technology, Jamshedpur, where knowledge meets innovation. Driven by a passion for holistic development, 
                         we specialize in empowering students with the skills and experiences necessary to navigate both academic and real-world technological 
@@ -35,10 +35,10 @@ const About = () => {
                     </p>
                 </div>
                 {/* </div> */}
-                <div className='bg-slate-100 flex flex-col justify-center pb-16 pt-5 px-5'>
+                <div className='bg-slate-100 flex flex-col justify-center pb-16 pt-5 px-5 md:px-14'>
                     <div className="2xl:container 2xl:mx-auto lg:py-16 lg:px-20 md:py-12 md:px-6 py-9 px-4">
-                        <p className="font-normal md:text-3xl text-xl md:mb-0  mb-3 leading-3 text-black cursor-pointer pb-2">Who we <span className='text-orange-500'>Are</span></p>
-                        <div className="flex lg:flex-row flex-col items-center lg:gap-8 sm:gap-10 gap-12">
+                        <p className="font-normal md:text-3xl text-xl md:mb-0  mb-3 leading-3 text-black cursor-pointer pb-2 md:pl-6">Who we <span className='text-orange-500'>Are</span></p>
+                        <div className="flex lg:flex-row flex-col items-center justify-center lg:gap-8 sm:gap-10 gap-12">
                             <div className="w-full lg:w-2/5">
                                 <h2 className="w-full font-bold lg:text-4xl text-3xl lg:leading-10 leading-9">We are here to foster growth, innovation, and excellence.
                                 </h2>
@@ -53,7 +53,7 @@ const About = () => {
                                 </p>
                             </div>
                             <div className="w-full lg:w-6/12 md:ml-12">
-                                <img className="w-full rounded-lg" src="/about.webp" alt="people discussing on board" />
+                                <img className="w-full md:w-[35vw] rounded-lg" src="/about.webp" alt="people discussing on board" />
                                 {/* <img className="lg:hidden sm:block hidden w-full" src="https://i.ibb.co/16fPqrg/Rectangle-122-2.png" alt="people discussing on board" />
                                 <img className="sm:hidden block w-full" src="/" alt="people discussing on board" /> */}
                             </div>

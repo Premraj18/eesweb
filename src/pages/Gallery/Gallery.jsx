@@ -73,13 +73,13 @@ const Gallery = () => {
   return (
     <Layout>
       <div className="App pt-28 bg-slate-100">
-        <h2 className='text-center text-4xl text-orange-600 font-semibold'> Our Memories</h2>
+        <h2 className='text-center text-5xl text-orange-600 font-bold'> Our Memories</h2>
         <div className="galleryWrapper px-5 py-14">
           <div className="filterItem mb-16">
             <ul>
-              <li><button onClick={() => {setData(GalleryData)}} className='p-2'>All</button></li>
+              <li><button onClick={() => {setData(GalleryData)}} className='p-2 text-gray-800'>All</button></li>
               {
-                collection.map((item) => <li><button onClick={() => { gallery_filter(item) }} className='p-2'>{item}</button></li>)
+                collection.map((item) => <li><button onClick={() => { gallery_filter(item) }} className='p-2 text-gray-800'>{item}</button></li>)
               }
             </ul>
           </div>

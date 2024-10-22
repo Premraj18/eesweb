@@ -19,7 +19,7 @@ const Team = () => {
         <Layout>
             <div className='bg-slate-100'>
                 <div className='bg-slate-100 flex flex-col justify-center items-center h-full w-full pt-28'>
-                    <h2 className='md:text-5xl text-3xl text-orange-600 font-semibold'>Team EES</h2>
+                    <h2 className='md:text-5xl text-3xl text-orange-600 font-bold'>Team EES</h2>
                 </div>
                 <div className='w-full flex items-center justify-center mt-10 px-5'>
                     <p className='text-center lg:w-2/3'>We are Team EES, a dynamic blend of dedicated faculty and 
@@ -49,23 +49,23 @@ const Team = () => {
                 {/* President */}
 
                 {active === 'item1' && <div className='president flex flex-col items-center justify-center mt-10 '>
-                    <motion.div className='lg:w-[33vw] sm:w-[50vw] w-[83vw] md:h-64 bg-white rounded-2xl shadow-lg py-6'
+                    <motion.div className='lg:w-[30vw] sm:w-[50vw] w-[83vw] md:h-52 h-52 bg-white rounded-2xl shadow-lg py-6'
                         whileHover={{ scale: 1.1, transition: { duration: 0.4 } }}
                     >
-                        <div className='w-full h-auto flex flex-col md:flex-row items-center lg:justify-between px-5 lg:px-10 gap-5 lg:gap-10'>
-                            <div className=''>
-                                <img src='/2k21/inderjeet.webp' alt="" className='w-[145px] h-36 md:w-80 md:h-32 shadow-md rounded-[100%] border-2 object-cover' />
+                        <div className='w-full h-full flex items-center px-3 lg:px-10 gap-5 lg:gap-13'>
+                            <div className='w-2/5'>
+                                <img src='/2k21/inderjeet.webp' alt="" className='w-[115px] h-28 md:w-32 md:h-32 shadow-md rounded-[100%] object-cover' />
                             </div>
-                            <div className='flex flex-col gap-3'>
+                            <div className='flex flex-col gap-4'>
                                 <h2 className='text-lg font-semibold'>Indrajeet Kumar</h2>
                                 <p>President</p>
-                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora aspernatur aut perspiciatis!</p>
                                 <div className='flex gap-6 text-xl'>
                                     <a href="https://www.linkedin.com/in/indrajeet-kumar-919b69255/" target='_blank' rel="noreferrer"><BsLinkedin /></a>
                                     <a href="mailto:2021ugee040@nitjsr.ac.in" target='_blank' rel="noreferrer"><MdMail className='cursor-pointer'/></a>   
                                 </div>
                             </div>
                         </div>
+                        
                     </motion.div>
                 </div>}
 

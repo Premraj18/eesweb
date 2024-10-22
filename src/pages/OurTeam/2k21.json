@@ -21,7 +21,7 @@
         "designation": "Manager",
         "img": "/2k21/riya.webp",
         "linkedin": "https://www.linkedin.com/in/riya-shrey-84ba13292/",
-        "email": "2021ugee117@nitjsr.ac.in"
+        "email": "mailto:2021ugee117@nitjsr.ac.in"
     },
     {
         "id": "14",
@@ -29,7 +29,7 @@
         "designation": "Web Head",
         "img": "/2k21/sagar.webp",
         "linkedin": "https://www.linkedin.com/in/shwet-sagar-b36536234/",
-        "email": "2021ugee103@nitjsr.ac.in"
+        "email": "mailto:2021ugee103@nitjsr.ac.in"
     },
     {
         "id": "5",
@@ -43,7 +43,7 @@
     {
         "id": "9",
         "name": "Samar Raghuvanshi",
-        "designation": "Corporative Affairs",
+        "designation": "Corporate Affairs",
         "img": "/2k21/samar.webp",
         "linkedin": "https://www.linkedin.com/in/samar-raghuvanshi-1a7362224/",
         "email": "mailto:2021ugee004@nitjsr.ac.in"
@@ -51,15 +51,15 @@
     {
         "id": "10",
         "name": "Tarun Anand",
-        "designation": "Corporative Affairs",
+        "designation": "Corporate Affairs",
         "img": "/2k21/tarun.webp",
         "linkedin": "https://www.linkedin.com/in/tarun-anand-686616211/",
-        "email": "2021ugee100@nitjsr.ac.in"
+        "email": "mailto:2021ugee100@nitjsr.ac.in"
     },
     {
         "id": "11",
         "name": "Divyanshu Kumar",
-        "designation": "Corporative Affairs",
+        "designation": "Corporate Affairs",
         "img": "/2k21/divyanshu.webp",
         "linkedin": "https://www.linkedin.com/in/divyanshu-kumar-singh-57ba3527a/",
         "email": "mailto:2021ugee064@nitjsr.ac.in"

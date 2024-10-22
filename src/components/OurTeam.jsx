@@ -3,6 +3,7 @@ import { BsLinkedin } from 'react-icons/bs'
 import { MdMail } from 'react-icons/md'
 import { Link } from 'react-router-dom'
 import { motion } from 'framer-motion'
+import { LuMoveRight } from 'react-icons/lu'
 
 const OurTeam = () => {
     return (
@@ -93,9 +94,8 @@ const OurTeam = () => {
                     </motion.div>
                 </div>
                 <div className="w-full my-16 text-center">
-                    <Link to='/team'
-                        className=" px-4 py-2 border-2 border-orange-600 rounded-3xl hover:bg-orange-700 hover:text-white">
-                        Learn more
+                    <Link to='/about' className='flex items-center justify-center'>
+                        <motion.button className='bg-orange-600 hover:bg-orange-500 text-white sm:w-40 flex items-center justify-center gap-3 p-2 py-1 sm:py-2 mt-5 rounded-full' >Learn more <span className='pt-1'><LuMoveRight/></span></motion.button>
                     </Link>
                 </div>
             </div>

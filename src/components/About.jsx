@@ -48,7 +48,7 @@ const About = () => {
                     technologies across various domains, be it electrical engineering, software development, 
                     automation, or interdisciplinary collaborations.</motion.p>
                    <Link to='/about'>
-                      <motion.button className='px-2 py-1 text-base border-2 rounded-full border-orange-600 hover:bg-orange-500 hover:text-white' variants={variants}>Learn More</motion.button>
+                      <motion.button className='px-3 py-1 text-base border-2 rounded-full bg-orange-600 hover:bg-orange-500 text-white' variants={variants}>Learn More</motion.button>
                    </Link>
                 </motion.div>
             </div>
