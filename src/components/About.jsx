@@ -45,14 +45,12 @@ const About = () => {
                     and be at the forefront of innovation. Here, we believe in continuous growth, fostering a 
                     community where every initiative is a step toward creating a technologically advanced and connected future. </motion.p>
 
-                   <motion.p className='my-6' variants={variants}>Here, you will explore diverse fields and 
+                   <motion.p className='pt-6' variants={variants}>Here, you will explore diverse fields and 
                     technologies across various domains, be it electrical engineering, software development, 
                     automation, or interdisciplinary collaborations.</motion.p>
-                    <div className="w-full my-16 text-center">
-                        <Link to='/about' className='flex items-center justify-center'>
-                            <motion.button className='bg-orange-600 hover:bg-orange-500 text-white sm:w-40 flex items-center justify-center gap-3 p-2 py-1 sm:py-2 mt-5 rounded-full' >Learn more <span className='pt-1'><LuMoveRight/></span></motion.button>
-                        </Link>
-                    </div>
+                    <Link to='/about' className=''>
+                        <motion.button className='bg-orange-600 hover:bg-orange-500 text-white sm:w-40 flex items-center justify-center gap-3 p-2 py-1 sm:py-2 mt-5 rounded-full' >Learn more <span className='pt-1'><LuMoveRight/></span></motion.button>
+                    </Link>
                 </motion.div>
             </div>
         </motion.div>

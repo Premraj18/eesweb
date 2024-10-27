@@ -56,10 +56,10 @@ const Contact = () => {
                     </div>
                 </div>
                 <div className='flex flex-col lg:flex-row items-center justify-center pb-16 px-5 gap-y-14 lg:gap-20'>
-                    <div className='lg:w-2/5 w-full flex items-center justify-center'>
+                    <div className='lg:w-[35%] w-full flex items-center justify-center'>
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3678.6863772192432!2d86.14154107508409!3d22.77701737934658!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f5e4daa475a5cd%3A0xd87b53fadcd771a1!2sNational%20Institute%20of%20Technology%2C%20Jamshedpur!5e0!3m2!1sen!2sjp!4v1718941681102!5m2!1sen!2sjp"
                             width="100%"
-                            height="550"
+                            height="520"
                             style={{ border: '0' }}
                             allowFullScreen=""
                             className='rounded-2xl shadow-xl'
@@ -68,11 +68,11 @@ const Contact = () => {
 
                         </iframe>
                     </div>
-                    <form onSubmit={handleSubmit} className='lg:w-2/5 border-2 p-10 w-full mx-3 bg-white shadow-lg rounded-xl'>
+                    <form onSubmit={handleSubmit} className='lg:w-[35%]  border-2 p-8 w-full mx-6 bg-white shadow-lg rounded-xl'>
                         <div className="-mx-2 md:items-center md:flex">
                             <div className="flex-1 px-2">
                                 <label className="block mb-2 text-sm text-gray-600 ">Name</label>
-                                <input type="text" placeholder="John Doe" className="block w-full px-5 py-2.5 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg   focus:border-orange-400 dark:focus:border-orange-400 focus:ring-orange-400 focus:outline-none focus:ring focus:ring-opacity-40"
+                                <input type="text" placeholder="Your name" className="block w-full px-5 py-2.5 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg   focus:border-orange-400 dark:focus:border-orange-400 focus:ring-orange-400 focus:outline-none focus:ring focus:ring-opacity-40"
                                     value={name}
                                     onChange={(e) => setName(e.target.value)}
                                 />
@@ -81,7 +81,7 @@ const Contact = () => {
 
                         <div className="mt-4">
                             <label className="block mb-2 text-sm text-gray-600 ">Email address</label>
-                            <input type="email" placeholder="johndoe@example.com" className="block w-full px-5 py-2.5 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg   focus:border-orange-400 dark:focus:border-orange-400 focus:ring-orange-400 focus:outline-none focus:ring focus:ring-opacity-40"
+                            <input type="email" placeholder="name@example.com" className="block w-full px-5 py-2.5 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg   focus:border-orange-400 dark:focus:border-orange-400 focus:ring-orange-400 focus:outline-none focus:ring focus:ring-opacity-40"
                                 value={email}
                                 onChange={(e) => setEmail(e.target.value)}
                             />
@@ -89,7 +89,7 @@ const Contact = () => {
 
                         <div className="w-full mt-4">
                             <label className="block mb-2 text-sm text-gray-600 ">Message</label>
-                            <textarea className="block w-full h-32 px-5 py-2.5 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg md:h-56   focus:border-orange-400 dark:focus:border-orange-400 focus:ring-orange-400 focus:outline-none focus:ring focus:ring-opacity-40" placeholder="Message"
+                            <textarea className="block w-full h-32 px-5 py-2.5 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg md:h-44  focus:border-orange-400 dark:focus:border-orange-400 focus:ring-orange-400 focus:outline-none focus:ring focus:ring-opacity-40" placeholder="Message"
                                 value={message}
                                 onChange={(e) => setMessage(e.target.value)}
                             />
@@ -139,7 +139,7 @@ const Contact = () => {
 
                         <h2 className="mt-4 text-lg font-medium text-gray-800 ">Phone</h2>
                         <p className="mt-2 text-gray-500 ">Mon-Fri from 8am to 5pm.</p>
-                        <p className="mt-2 text-orange-500 ">+91 1234567890</p>
+                        <p className="mt-2 text-orange-500 ">+91 7004763780</p>
                     </div>
                 </div>
             </div>
