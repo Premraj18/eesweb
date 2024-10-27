@@ -23,7 +23,7 @@ const OurTeam = () => {
                         whileHover={{ scale: 1.1, transition: { duration: 0.4 } }}
                     >
                         <div className='w-full h-full flex items-center px-3 lg:px-10 gap-5 lg:gap-16'>
-                            <div className='w-[70%] lg:w-[60%]'>
+                            <div className='w-[90%] lg:w-[60%]'>
                                 <img src="/ravi.webp" alt="" className='w-[115px] h-28 md:w-32 md:h-32 shadow-md rounded-[100%] object-cover' />
                             </div>
                             <div className='flex flex-col gap-4'>
@@ -42,7 +42,7 @@ const OurTeam = () => {
                         whileHover={{ scale: 1.1, transition: { duration: 0.4 } }}
                     >
                         <div className='w-full h-full flex items-center px-3 lg:px-10 gap-5 lg:gap-16'>
-                            <div className='w-[70%] lg:w-[60%]'>
+                            <div className='w-[90%] lg:w-[60%]'>
                                 <img src="/arvind.webp" alt="" className='w-[115px] h-28 md:w-32 md:h-32 shadow-md rounded-[100%] object-cover' />
                             </div>
                             <div className='flex flex-col gap-4'>
@@ -94,7 +94,7 @@ const OurTeam = () => {
                     </motion.div>
                 </div>
                 <div className="w-full my-16 text-center">
-                    <Link to='/about' className='flex items-center justify-center'>
+                    <Link to='/team' className='flex items-center justify-center'>
                         <motion.button className='bg-orange-600 hover:bg-orange-500 text-white sm:w-40 flex items-center justify-center gap-3 p-2 py-1 sm:py-2 mt-5 rounded-full' >Learn more <span className='pt-1'><LuMoveRight/></span></motion.button>
                     </Link>
                 </div>

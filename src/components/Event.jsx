@@ -1,6 +1,7 @@
 import React from 'react'
 import EventCard from './EventCard'
 import { Link } from 'react-router-dom'
+import { LuMoveRight } from 'react-icons/lu'
 
 const Event = () => {
     return (
@@ -17,10 +18,9 @@ const Event = () => {
                         Being a Predator we will definitely strive for success but we want you to be our support while carrying this responsibility.
                         Contribute to a cause, Be a Predator with us."</p>
                 </div>
-                <div className="w-full mb-10 text-center">
-                    <Link to='/event'
-                        className=" px-4 py-2 border-2 rounded-3xl bg-orange-600 hover:bg-orange-500 text-white">
-                        Learn more
+                <div className="w-full my-16 text-center">
+                    <Link to='/event' className='flex items-center justify-center'>
+                        <button className='bg-orange-600 hover:bg-orange-500 text-white sm:w-40 flex items-center justify-center gap-3 p-2 py-1 sm:py-2 mt-5 rounded-full' >Learn more <span className='pt-1'><LuMoveRight/></span></button>
                     </Link>
                 </div>
             </div>

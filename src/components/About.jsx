@@ -4,6 +4,7 @@ import React from 'react'
 import { BiCheckDouble } from "react-icons/bi";
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion'
+import { LuMoveRight } from 'react-icons/lu';
 //this is naman
 const variants = {
     initial: {
@@ -47,9 +48,11 @@ const About = () => {
                    <motion.p className='my-6' variants={variants}>Here, you will explore diverse fields and 
                     technologies across various domains, be it electrical engineering, software development, 
                     automation, or interdisciplinary collaborations.</motion.p>
-                   <Link to='/about'>
-                      <motion.button className='px-3 py-1 text-base border-2 rounded-full bg-orange-600 hover:bg-orange-500 text-white' variants={variants}>Learn More</motion.button>
-                   </Link>
+                    <div className="w-full my-16 text-center">
+                        <Link to='/about' className='flex items-center justify-center'>
+                            <motion.button className='bg-orange-600 hover:bg-orange-500 text-white sm:w-40 flex items-center justify-center gap-3 p-2 py-1 sm:py-2 mt-5 rounded-full' >Learn more <span className='pt-1'><LuMoveRight/></span></motion.button>
+                        </Link>
+                    </div>
                 </motion.div>
             </div>
         </motion.div>

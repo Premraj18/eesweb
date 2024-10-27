@@ -114,9 +114,9 @@ function EventCard() {
         {Data.map((d) => (
           <div key={d.id} className="h-[330px] w-full rounded  flex flex-col lg:px-16 px-6 pt-1 pb-5 items-center justify-center "  >
             <div className='h-full bg-white border-2 text-center justify-center p-5 px-8 flex flex-col items-center' style={{boxShadow:'0 0 10px rgb(220, 220, 220)'}}>
-              <div className='flex justify-center items-center gap-3 mb-5'>
+              <div className='flex justify-center items-center gap-2 mb-5'>
+                <img src={d.imgUrl} alt="" className='w-10'/>
                 <h2 className='text-xl font-semibold '>{d.title}</h2>
-                <img src={d.imgUrl} alt="" className='w-12'/>
               </div>
                 <p className='text-lg'>{d.description}</p>
             </div>

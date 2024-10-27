@@ -7,7 +7,7 @@ const EventCard = ({ title, description, image }) => {
 
   return (
     <div
-      className="flex mt-5 flex-col justify-center items-center p-4 px-8 border border-gray-200 rounded-2xl shadow-md w-[350px] hover:shadow-lg  transform transition-all hover:scale-105  bg-white duration-300"
+      className="flex flex-col justify-center items-center p-4 px-8 border border-gray-200 rounded-2xl shadow-md w-[350px] hover:shadow-lg  transform transition-all hover:scale-105  bg-white duration-300"
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
