@@ -29,20 +29,38 @@ const Contact = () => {
     const [email, setEmail] = useState('');
     const [message, setMessage] = useState('');
 
-
-    const handleSubmit = async (e) => {
-        e.preventDefault();
+    const handleSubmit = async (event) => {
+        event.preventDefault();
 
         if (name == '' || email == '' || message == '') {
             toast.error("Please fill all the credentials!")
+            return;
         }
-        else {
+
+        const formData = new FormData();
+        formData.append("name",name)
+        formData.append("email",email)
+        formData.append("message",message)
+    
+        formData.append("access_key", "42bcee30-8516-4a68-a578-bb899ab0d921");
+    
+        const response = await fetch("https://api.web3forms.com/submit", {
+          method: "POST",
+          body: formData
+        });
+    
+        const data = await response.json();
+    
+        if (data.success) {
             toast.success("message sent successfully");
             setName('');
             setEmail('');
             setMessage('');
+        } else {
+          console.log("Error", data);
+          toast.error(data.message);
         }
-    }
+    };
 
     return (    
         <Layout>
@@ -73,6 +91,7 @@ const Contact = () => {
                             <div className="flex-1 px-2">
                                 <label className="block mb-2 text-sm text-gray-600 ">Name</label>
                                 <input type="text" placeholder="Your name" className="block w-full px-5 py-2.5 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg   focus:border-orange-400 dark:focus:border-orange-400 focus:ring-orange-400 focus:outline-none focus:ring focus:ring-opacity-40"
+                                    name='name'
                                     value={name}
                                     onChange={(e) => setName(e.target.value)}
                                 />
@@ -82,6 +101,7 @@ const Contact = () => {
                         <div className="mt-4">
                             <label className="block mb-2 text-sm text-gray-600 ">Email address</label>
                             <input type="email" placeholder="name@example.com" className="block w-full px-5 py-2.5 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg   focus:border-orange-400 dark:focus:border-orange-400 focus:ring-orange-400 focus:outline-none focus:ring focus:ring-opacity-40"
+                                name='email'
                                 value={email}
                                 onChange={(e) => setEmail(e.target.value)}
                             />
@@ -90,6 +110,7 @@ const Contact = () => {
                         <div className="w-full mt-4">
                             <label className="block mb-2 text-sm text-gray-600 ">Message</label>
                             <textarea className="block w-full h-32 px-5 py-2.5 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg md:h-44  focus:border-orange-400 dark:focus:border-orange-400 focus:ring-orange-400 focus:outline-none focus:ring focus:ring-opacity-40" placeholder="Message"
+                                name='message'
                                 value={message}
                                 onChange={(e) => setMessage(e.target.value)}
                             />
