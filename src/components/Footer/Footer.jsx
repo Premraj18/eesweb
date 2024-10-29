@@ -15,7 +15,7 @@ const Footer = () => {
           <p>National Institute of Technology, Jamshedpur Jharkhand, 831014 <br /> India</p>
           <div>
             <p className="font-medium">Linkedin : <span className="font-normal">@eesnitjsr</span></p>
-            <p className="font-medium">Email : <span className="font-normal">eesnitjsr@gmail.com</span></p>
+            <p className="font-medium">Email : <span className="font-normal">ees_eed@nitjsr.ac.in</span></p>
           </div>
         </div>
         <div className="flex flex-col items-center md:items-start">

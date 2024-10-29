@@ -135,7 +135,7 @@ const Contact = () => {
 
                         <h2 className="mt-4 text-lg font-medium text-gray-800 ">Email</h2>
                         <p className="mt-2 text-gray-500 ">Our friendly team is here to help.</p>
-                        <p className="mt-2 text-orange-500 ">eesnitjsr@gmail.com</p>
+                        <p className="mt-2 text-orange-500 ">ees_eed@nitjsr.ac.in</p>
                     </div>
 
                     <div className="flex flex-col items-center justify-center text-center">
